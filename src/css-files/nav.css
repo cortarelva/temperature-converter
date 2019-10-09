@@ -1,0 +1,12 @@
+.nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    min-height:8vh;
+    background:rgb(33, 86, 146);
+    margin:0 auto;
+    color:white;
+}
+li{
+    list-style: none;
+}

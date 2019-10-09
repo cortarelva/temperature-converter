@@ -1,0 +1,16 @@
+.text-formula-container{
+    width:700px;
+    margin:0 auto;
+    font-family: "Roboto", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    text-align:center;
+    background:whitesmoke;
+    border-radius:15px;
+    padding:5px;
+}
+.text-format{
+    text-align: left;
+}
+ a{
+    font-weight:600;
+}

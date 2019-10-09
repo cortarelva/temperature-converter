@@ -1,25 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import AdSense from 'react-adsense';
+import Nav from '../src/components/nav';
+import ConverterFahrenheit from '../src/components/converterFahrenheit';
+import FormulaFahrenheit from './components/text-formula-Fahrenheit';
+import ConverterCelsius from '../src/components/converterCelsius';
+import FormulaCelsius from '../src/components/text-formula-Celsius';
+import Footer from '../src/components/footer';
+
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+      <AdSense.Google 
+      client=''
+      slot=''
+      />
+      <Nav />
+      <Route path="/Fahrenheit to Celsius" component={ConverterFahrenheit} />
+      <Route path="/Celsius to Fahrenheit" component={ConverterCelsius} />
+      <Route path="/Fahrenheit to Celsius" component={FormulaFahrenheit}/>
+      <Route path="/Celsius to Fahrenheit" component={FormulaCelsius} />
+      <Footer />
+      </div>
+    </Router>
+    
   );
 }
 
