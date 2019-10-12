@@ -31,13 +31,14 @@ return(
         or<br/>
         T(°F) = T(°C) × 1.8 + 32
         </h3>
-        <h2 className="text-formula-title">Example</h2>
+        <h3 className="text-formula-title">Example</h3>
         <p className="text-formula-title">Convert 20 degrees Celsius to degrees Fahrenheit:</p>
         <h3>T(°F) = 20°C × 9/5 + 32 = 68 °F</h3>
 
         <h4>Curiosity</h4>
         <p>The Fahrenheit scale meets with the Celsius scale at exactly -40 Deg.</p>
         <h3>-40ºF = -40ºC</h3>
+        <p>A temperature difference of 1 deg C is the equivalent of a temperature difference 1.8°F.</p>
     </section>
 );
 }
