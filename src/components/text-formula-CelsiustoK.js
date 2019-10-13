@@ -5,7 +5,7 @@ import '../css-files/text-formula.css';
 export default function FormulaCelsiustoKelvin() {
 return(
     <section className="text-formula-container">
-        <h1 classNamme="text-formula-title">Definition of Celsius</h1>
+        <h1 classNamme="text-formula-title">Definition of Kelvin</h1>
         <div className="text-format">
         <p>
         The <a>Kelvin</a> is defined by fixing the numerical value of the Boltzmann constant k to 1.380 649×10−23 J⋅K−1. 

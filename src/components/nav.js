@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 
 import '../css-files/nav.css';
 
@@ -15,31 +15,37 @@ export default function Nav(){
             <ul className="nav">
                 <li>
                     <ul>
-                    <Link to='Fahrenheit to Celsius' style={navStyle}>
+                    <NavLink to='Fahrenheit to Celsius' activeClassName="chosen" style={navStyle}>
                     <li>Fahrenheit to Celsius</li>
-                    </Link> 
+                    </NavLink>
+                    <NavLink to="Fahrenheit to kelvin" activeClassName="chosen" style={navStyle}>
                     <li>Fahrenheit to Kelvin</li>
+                    </NavLink> 
+                    
                     </ul> 
                 </li>
                 <li>
                     <ul>
-                    <Link to='Celsius to Fahrenheit' style={navStyle}>
+                    <NavLink to='Celsius to Fahrenheit' activeClassName="chosen" style={navStyle}>
                     <li>Celsius to Fahrenheit</li>
-                    </Link> 
-                    <Link to="Celsius to Kelvin" style={navStyle} >
+                    </NavLink> 
+                    <NavLink to="Celsius to Kelvin" activeClassName="chosen" style={navStyle} >
                         <li>Celsius to Kelvin</li>
-                    </Link> 
+                    </NavLink> 
                      
                     </ul>  
                 </li>                
                 <li>
                     <ul>
-                    <Link to='Kelvin to Fahrenheit' style={navStyle}>
+                    <NavLink to='Kelvin to Fahrenheit' activeClassName="chosen" style={navStyle}>
                         <li>Kelvin to Fahrenheit</li>
-                    </Link>
-                    <Link to="Kelvin to Celsius" style={navStyle}>
+                    </NavLink>
+                    <NavLink to="Kelvin to Celsius" activeClassName="chosen" style={navStyle}>
+                        <NavLink to="Kelvin to Celsius" activeClassName="chosen" style={navStyle}>
                         <li>Kelvin to Celsius</li>
-                    </Link>  
+                        </NavLink>
+                        
+                    </NavLink>  
                     
                     </ul>
                        

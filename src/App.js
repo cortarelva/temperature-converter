@@ -11,6 +11,8 @@ import ConverterKelvintoC from '../src/components/converterKelvintoC';
 import FormulaKelvintoCelsius from '../src/components/text-formula-KelvintoC';
 import ConverterCelsiustoK from '../src/components/converterCelsiustoK';
 import FormulaCelsiustoKelvin from '../src/components/text-formula-CelsiustoK';
+import ConverterFahrenheittoK from '../src/components/converterFahrenheittoK';
+import FormulaFahrenheittoK from '../src/components/text-formula-FahrenheittoK';
 import Footer from '../src/components/footer';
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -18,7 +20,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
 
-function App() {
+export default function App() {
   return (
     <Router>
       <div>
@@ -32,16 +34,17 @@ function App() {
       <Route path="/Kelvin to Fahrenheit" component={ConverterKelvintoF} />
       <Route path="/Kelvin to Celsius" component={ConverterKelvintoC} />
       <Route path="/Celsius to Kelvin" component={ConverterCelsiustoK} />
-      <Route path="/Fahrenheit to Celsius" component={FormulaFahrenheit}/>
+      <Route path="/Fahrenheit to Kelvin" component={ConverterFahrenheittoK} />
+      <Route path="/Fahrenheit to Celsius" component={FormulaFahrenheit} />
       <Route path="/Celsius to Fahrenheit" component={FormulaCelsius} />
       <Route path="/Kelvin to Fahrenheit" component={FormulaKelvintoFahrenheit} />
       <Route path="/Kelvin to Celsius" component={FormulaKelvintoCelsius} />
-      <Route path="/Celsius to Kelvin" component={FormulaCelsiustoKelvin}/>
+      <Route path="/Celsius to Kelvin" component={FormulaCelsiustoKelvin} />
+      <Route path="/Fahrenheit to Kelvin" component={FormulaFahrenheittoK} />
       <Footer />
       </div>
-    </Router>
-    
+    </Router>   
   );
 }
 
-export default App;
+
