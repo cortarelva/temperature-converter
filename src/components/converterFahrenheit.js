@@ -5,7 +5,7 @@ import '../css-files/converter.css';
 
 
 
- class ConverterInput extends React.Component{
+class ConverterInput extends React.Component{
 constructor(props){
     super(props)
     this.state = {value:" "}

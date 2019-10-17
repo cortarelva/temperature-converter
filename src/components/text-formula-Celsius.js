@@ -18,21 +18,22 @@ return(
         Absolute zero is defined as -459.67°F.
         </p>
         </div>
-        <h1 classNamme="text-formula-title">Fahrenheit to Celsius formula</h1>
-        <h4>How to convert Fahrenheit to Celsius</h4>
-        <p className="text-format">The temperature T in degrees Celsius (°C) is equal to the temperature T 
-        in degrees Fahrenheit (°F) minus 32, times 5/9:
+        <h1 classNamme="text-formula-title">Celsius to Fahrenheit formula</h1>
+        
+        <p className="text-format">The Fahrenheit temperature range is based on setting the freezing point of water at 32 degrees, 
+        and boiling to 212 degrees. This means that boiling and freezing point are 180 degrees apart. Absolute zero is defined as -459.67°F.
         </p>
+        <h4>How to convert Celsius to Fahrenheit</h4>
+        <p>The temperature T in degrees Fahrenheit (°F) is equal to the temperature T
+             in degrees Celsius (°C) times 9/5 plus 32:</p>
         <h3>
-        T(°C) = (T(°F) - 32) × 5/9<br/>
+        T(°F) = T(°C) × 9/5 + 32<br/>
         or<br/>
-        T(°C) = (T(°F) - 32) / (9/5)<br/>
-        or<br/>
-        T(°C) = (T(°F) - 32) / 1.8
+        T(°F) = T(°C) × 1.8 + 32
         </h3>
         <h3 className="text-formula-title">Example</h3>
-        <p className="text-formula-title">Convert 68 degrees Fahrenheit to degrees Celsius:</p>
-        <h3>T(°C) = (68°F - 32) × 5/9 = 20 °C</h3>
+        <p className="text-formula-title">Convert 20 degrees Celsius to degrees Fahrenheit:</p>
+        <h3>T(°F) = 20°C × 9/5 + 32 = 68 °F</h3>
 
         <h4>Curiosity</h4>
         <p>The Fahrenheit scale meets with the Celsius scale at exactly -40 Deg.</p>
