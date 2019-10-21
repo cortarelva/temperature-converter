@@ -31,6 +31,14 @@ return(
         or<br/>
         T(°F) = T(°C) × 1.8 + 32
         </h3>
+        
+        <h3>
+        You also can convert the temperature by hand, if you use this formula:
+        </h3>
+         <p>Multiply the <a>Celsius</a> temperature by 9<br/>
+            Divide the answer by 5<br/>
+            Add 32
+        </p>
         <h3 className="text-formula-title">Example</h3>
         <p className="text-formula-title">Convert 20 degrees Celsius to degrees Fahrenheit:</p>
         <h3>T(°F) = 20°C × 9/5 + 32 = 68 °F</h3>
