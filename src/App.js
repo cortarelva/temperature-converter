@@ -8,6 +8,7 @@ import DisplayFahrenheittoKelvin from '../src/components/displayFahrenheittoKelv
 import DisplayCelsiustoKelvin from '../src/components/displayCelsiustoKelvin';
 import DisplayKelvintoCelsius from '../src/components/displayKelvintoCelsius';
 import ButtonLinks from '../src/components/ButtonLinks';
+import TemperatureDefinition from '../src/components/temperaturedefinition';
 import Footer from '../src/components/footer';
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -31,6 +32,7 @@ export default function App() {
       <Route path="/Celsius to Kelvin" component={DisplayCelsiustoKelvin} />
       <Route path="/Kelvin to Celsius" component={DisplayKelvintoCelsius} />
       <ButtonLinks />
+      <TemperatureDefinition />
       <Footer />
       </div>
     </Router>   
