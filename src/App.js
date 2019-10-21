@@ -1,5 +1,4 @@
 import React from 'react';
-import AdSense from 'react-adsense';
 import Nav from '../src/components/nav';
 import DisplayFahrenheittoCelsius from '../src/components/displayFahrenheittoCelsius';
 import DisplayCelsiustoFahrenheit from '../src/components/displayCelsiustoFahrenheit';
@@ -20,10 +19,6 @@ export default function App() {
   return (
     <Router>
       <div>
-      <AdSense.Google 
-      client=''
-      slot=''
-      />
       <Nav />
       <Route path="/Fahrenheit to Celsius" component={DisplayFahrenheittoCelsius} />
       <Route path="/Fahrenheit to Kelvin" component={DisplayFahrenheittoKelvin} />

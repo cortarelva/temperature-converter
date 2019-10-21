@@ -37,6 +37,19 @@ return(
         <h3 className="text-formula-title">Example</h3>
         <p className="text-formula-title">Convert 20 degrees Celsius to Kelvin:</p>
         <h3>T(K) = 20°C + 273.15 = 293.15 K</h3>
+        <h2 className="text-formula-title">Important Notes</h2>
+        <p className="text-format">
+        Celsius temperature have a degree symbol while those reported in Kelvin do not.
+        </p>
+        <p className="text-format">
+        While the size of the degree is the same between Kelvin and Celsius, 
+        there is no point at which the two scales are equal. A Celsius 
+        temperature will always be higher than Kelvin. 
+        </p>
+        <p className="text-format">
+        Celsius temperatures can be negative. Kelvin goes down to absolute zero 
+        (no negative temperature).
+        </p>
     </section>
-);
+    );
 }
